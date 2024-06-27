@@ -5,7 +5,7 @@ resource "aws_instance" "name" {
 }
 
 resource "aws_s3_bucket" "mybucket" {
-  bucket = "my-tf-test-bucket2200000000"
+  bucket = "my-tf-test-cket2200000000"
 
   tags = {
     Name        = "My bucket"
@@ -14,7 +14,7 @@ resource "aws_s3_bucket" "mybucket" {
 }
 
 resource "aws_s3_bucket" "mybucket1" {
-  bucket = "my-tf-test-bucket00055000001"
+  bucket = "my-tf-test-bucet00055000001"
 
   tags = {
     Name        = "My bucket"
