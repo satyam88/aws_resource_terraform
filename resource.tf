@@ -4,7 +4,7 @@ resource "aws_instance" "mumbai" {
   count         = var.instance_count
 }
 
-resource "aws_instance" "hyd" {
+resource "aws_instance" "syg" {
   ami           = var.ami
   instance_type = var.instance_type
   count         = var.instance_count
