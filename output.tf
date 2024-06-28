@@ -9,4 +9,4 @@ output "instance_public_ip_addr" {
 
 output "instance_SG" {
   value = aws_instance.name[*].security_groups
-  }
+}

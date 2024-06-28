@@ -10,3 +10,10 @@ terraform {
 provider "aws" {
   region = "ap-south-1"
 }
+
+#Terraform alias: Multiple Provider Configuration
+
+provider "aws" {
+  region = "ap-south-2"
+  alias  = "hyd"
+}
