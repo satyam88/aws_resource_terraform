@@ -14,6 +14,6 @@ provider "aws" {
 #Terraform alias: Multiple Provider Configuration
 
 provider "aws" {
-  region = "ap-south-2"
+  region = "ap-southeast-1"
   alias  = "hyd"
 }
